@@ -3,11 +3,11 @@ import {
   Switch,
   Route,
   Link,
-  NavLink,
-  Router,
+ 
+  
 } from "react-router-dom";
-import { useEffect, useState } from 'react';
-import Header from './class/header/Header';
+
+
 import Contact from './class/Contact';
 import Shop from './class/Login';
 import Product from './class/About';
@@ -15,7 +15,7 @@ import Product from './class/About';
 
 
 function App() {
-  const [state, setState] = useState(0)
+
   return (
     <div className="App">
       <header className="App-header"> 
